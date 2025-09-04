@@ -10,13 +10,16 @@
 #define MISSION_H
 #include <iostream>
 #include <string>
+#include "Entreprise.h"
 
  /*! \class Mission
-    * \brief classe representant une entreprise. 4 attributs pives
+    * \brief classe representant une entreprise. 4 attributs prives
     */
 class Mission
 {
 private:
+    /*Classe sous forme canonique*/
+    Entreprise entrepriseMission;
     int nbPersonne;
     std::string descriptifMission;
     int nbHeure;
@@ -28,15 +31,15 @@ public:
     /*Classe sous forme canonique*/
     Mission();
     ~Mission();
-    Mission(const Mission& entre);
-    Mission &operator = (const Mission& entre);
+    Mission(const Mission& miss);
+    Mission &operator = (const Mission& miss);
 
     Mission(int nombrePers, std::string descriptif, int heure);
-    /*void setNbPersonne(int nouveauNb);
+    void setNbPersonne(int nouveauNb);
     int getNbPersonne();
     void setDescriptifMission(std::string nouveauDescriptif);
-    std::string getDescriptif();
-    int setNbHeure(int nouvelHeure);
-    int getNbHeure();*/
+    std::string getDescriptifMission();
+    void setNbHeure(int nouvelHeure);
+    int getNbHeure();
 
 };
