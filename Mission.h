@@ -6,7 +6,7 @@
  * \date   September 2025
  *********************************************************************/
 
-#ifndef MISSION_H
+//#ifndef MISSION_H
 #define MISSION_H
 #include <iostream>
 #include <string>
@@ -34,7 +34,9 @@ public:
     Mission(const Mission& miss);
     Mission &operator = (const Mission& miss);
 
-    Mission(int nombrePers, std::string descriptif, int heure);
+    Mission(/*Entreprise entrepriseMission,*/int nombrePers, std::string descriptif, int heure);
+    //void setEntrepriseMission();
+    //Entreprise getEntrepriseMission();
     void setNbPersonne(int nouveauNb);
     int getNbPersonne();
     void setDescriptifMission(std::string nouveauDescriptif);
