@@ -34,9 +34,7 @@ public:
     Mission(const Mission& miss);
     Mission &operator = (const Mission& miss);
 
-    Mission(/*Entreprise entrepriseMission,*/int nombrePers, std::string descriptif, int heure);
-    //void setEntrepriseMission();
-    //Entreprise getEntrepriseMission();
+    Mission(int nombrePers, std::string descriptif, int heure);
     void setNbPersonne(int nouveauNb);
     int getNbPersonne();
     void setDescriptifMission(std::string nouveauDescriptif);
