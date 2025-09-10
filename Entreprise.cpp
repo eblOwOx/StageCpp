@@ -2,11 +2,11 @@
  * \file   Entreprise.cpp
  * \brief  Definition de la classe Entreprise
  * 
- * \author Pierre
+ * \author Amaury
  * \version 0.1
- * \date   June 2023
+ * \date   Semptember 2025
  * 
- * Programme Cpp permettant de creer des objets pour décrire les stages
+ * Programme Cpp permettant de creer des objets pour dÃ©crire les stages
  *********************************************************************/
 
 #include "Entreprise.h"
@@ -74,7 +74,7 @@ Entreprise::Entreprise(const Entreprise& entre)
 Entreprise &Entreprise::operator = (const Entreprise& entre)
 { 
     cout << "Affectation de l'entreprise" << std::endl;
-    if (this != &entre)  // Pour éviter que l'on ne se recopie pas...
+    if (this != &entre)  // Pour Ã©viter que l'on ne se recopie pas...
     {
         this->nomEntreprise = entre.nomEntreprise;
         this->villeEntreprise = entre.villeEntreprise;
@@ -120,3 +120,4 @@ std::string Entreprise::getVilleEntreprise() {
 void  Entreprise::setVilleEntreprise(std::string nouvelleVille) {
     this->villeEntreprise = nouvelleVille;
 }
+
