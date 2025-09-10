@@ -2,8 +2,8 @@
  * \file   Entreprise.h
  * \brief  Declaration de la classe entreprise
  * 
- * \author Pierre
- * \date   June 2023
+ * \author Amaury
+ * \date   Semptember 2025
  *********************************************************************/
 
 #ifndef ENTREPRISE_H
