@@ -1,7 +1,22 @@
+/*****************************************************************//**
+* \file   main.cpp
+* \brief  Point d'entrée
+*
+* \author Amaury
+* \version 0.1
+* \date   September 2025
+*
+* Point d'entrée du programme, permet de tester les différents objets et méthodes.
+*********************************************************************/
+
 #include <iostream>
 #include "source/Entreprise.cpp"
 #include "source/Mission.cpp"
 
+/**
+ * \brief Permet de tester les objets et le méthodes
+ *
+ */
 int main () {
   Entreprise entreprise1;
   entreprise1.setEntreprise("Broceliande");
