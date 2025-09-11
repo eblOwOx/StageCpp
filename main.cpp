@@ -10,8 +10,8 @@
 *********************************************************************/
 
 #include <iostream>
-#include "source/Entreprise.cpp"
-#include "source/Mission.cpp"
+#include "header/Mission.h"
+#include "header/Entreprise.h"
 
 /**
  * \brief Permet de tester les objets et le méthodes
@@ -27,12 +27,12 @@ int main () {
   mission1.setDescriptifMission("aaaaa");
   mission1.setNbHeure(8);
 
-  std::cout << "Entreprise : " << entreprise1.getNomEntreprise() << "." << endl;
-  std::cout << "Ville : " << entreprise1.getVilleEntreprise() << "." << endl;
+  std::cout << "Entreprise : " << entreprise1.getNomEntreprise() << "." << std::endl;
+  std::cout << "Ville : " << entreprise1.getVilleEntreprise() << "." << std::endl;
 
-  std::cout << "Nombre de personnes pour la mission : " << mission1.getNbPersonne() << "." << endl;
-  std::cout << "Descriptif de la mission : " << mission1.getDescriptifMission() << "." << endl;
-  std::cout << "Durée de la mission : " << mission1.getNbHeure() << "." << endl;
+  std::cout << "Nombre de personnes pour la mission : " << mission1.getNbPersonne() << "." << std::endl;
+  std::cout << "Descriptif de la mission : " << mission1.getDescriptifMission() << "." << std::endl;
+  std::cout << "Durée de la mission : " << mission1.getNbHeure() << "." << std::endl;
 
   return 0;
 }

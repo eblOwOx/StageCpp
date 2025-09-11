@@ -14,5 +14,6 @@ Télécharger un compilateur C++ selon votre plateforme :
   ```bash
   git clone https://github.com/eblOwOx/StageCpp.git
   cd StageCpp
-  g++ main.cpp -o stagecpp
+  g++ main.cpp source/* -o stagecpp
   ```
+  Puis exécuter le fichier sous le nom de "stagecpp".
