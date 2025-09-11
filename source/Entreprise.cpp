@@ -9,7 +9,7 @@
  * Programme Cpp permettant de creer des objets pour décrire les stages
  *********************************************************************/
 
-#include "Entreprise.h"
+#include "../header/Entreprise.h"
 
 
 

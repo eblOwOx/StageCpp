@@ -1,6 +1,6 @@
 #include <iostream>
-#include "Entreprise.cpp"
-#include "Mission.cpp"
+#include "source/Entreprise.cpp"
+#include "source/Mission.cpp"
 
 int main () {
   Entreprise entreprise1;

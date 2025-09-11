@@ -9,7 +9,7 @@
 * Programme Cpp permettant de creer des objets pour décrire les stages
 *********************************************************************/
 
-#include "Mission.h"
+#include "../header/Mission.h"
 
 using namespace std;
 
